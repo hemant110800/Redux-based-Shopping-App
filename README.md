@@ -9,10 +9,24 @@ For storing all cart values , success and failure notifications recieved based o
 
 **Functional Behaviour**
 
-**1) Add to Item** - On click of Add to Item Btn we can add items to cart and parallely we are sending updated cart values to backend and based on success and failure response will show notification at UI end.
+**1) Toggle Cart Details** - User can see or hide cart details container onclick of My Cart Button from header
+
+![image](https://github.com/hemant110800/Redux-based-Shopping-App/assets/48346161/a68fa37e-02a7-4fc3-9f42-1845c2c347e0)
+
+**2) Add to Item** - On click of Add to Item Btn we can add items to cart and parallely we are sending updated cart values to backend and based on success and failure response will show notification at UI end. Also in cart details container if we click on + button it will add items to cart and accordingly everything updates (Backend json, price , cart count etc)
 
 ![image](https://github.com/hemant110800/Redux-based-Shopping-App/assets/48346161/10e90802-1cda-4e16-94a9-340d9c1bdffc)
 
-![image](https://github.com/hemant110800/Redux-based-Shopping-App/assets/48346161/ce5bda84-bdbb-40c3-839a-39d2a66842a1)
+![image](https://github.com/hemant110800/Redux-based-Shopping-App/assets/48346161/a171f90f-ee4b-4925-ac16-d876cd9d479a)
 
-**2) Toggle Cart Details** -
+**3) Remove from Item** - From Cart Details area we have - button , from there we can remove item or product from cart and accordingly redux store , backend all will update if only one item is present in cart it will remove item totally else it will reduce count by 1.
+
+![image](https://github.com/hemant110800/Redux-based-Shopping-App/assets/48346161/d8ea5066-9318-4080-af4c-fcd9a719c0ac)
+
+**Tech Used**
+
+**Front-end:** React, React Hooks, Redux, JavaScript, HTML, CSS
+
+**Back-end:** NodeJS, ExpressJS, Express Router, Basic GET POST APIs
+
+**Database :** JSON files at back-end.

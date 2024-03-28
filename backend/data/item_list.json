@@ -1,0 +1,7 @@
+{
+  "cartValues": [
+    { "id": "It_1", "title": "Shoes", "price": 30, "quantity": 3, "total": 90 },
+    { "id": "It_3", "title": "Pant", "price": 80, "quantity": 1, "total": 80 }
+  ],
+  "totalItems": 4
+}
